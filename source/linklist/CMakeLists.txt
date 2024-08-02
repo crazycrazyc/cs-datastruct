@@ -4,4 +4,6 @@ project(linklist)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(linklist main.cpp
-        linklist.cpp)
+        linklist.cpp
+        queue.cpp
+        queue.h)
